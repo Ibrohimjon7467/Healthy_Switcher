@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: #191919;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.d-flex{
+    display: flex;
+}
+.fw{
+    flex-wrap: wrap;
+}
+.fdc{
+    flex-direction: column;
+}
+.aic{
+    align-items: center;
+}
+.aif{
+    align-items: flex-start;
+}
+.jcc{
+    justify-content: center;
+}
+.jcb{
+    justify-content: space-between;
+}
+.tac{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.p0{
+    padding: 0;
+}
+
+/* Top Section */
+.top_section{
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('img/png/bg_img1.png');
+}
+.header .container{
+    height: 90px;
+}
+.header_svg--text{
+    margin-left: 8.97px;
+    margin-top: 7px;
+}
+.header_menu{
+    gap: 50px;
+}
+.header_menu li a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+.header_menu li a:hover{
+    color: #34C759;
+}
+.big_title{
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+    margin: 55px 0 40px 0;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.order_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    opacity: 0.7;
+    color: #FFFFFF;
+}
+.order_btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 25px 56px;
+    letter-spacing: 0.2em;
+    color: #1A1A1A;
+    border: none;
+    border-radius: 43px;
+    margin-top: 40px;
+    background: #34C759;
+}
+.order_ads{
+    width: 100%;
+    margin-top: 70px;
+}
+.order_box{
+    width: 245px;
+    height: 95px;
+    padding: 5px 0;
+}
+.order_box--title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+.order_box--link{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+/* Top Section */
+
+/* The Basic Of Food */
+.basic .container{
+    height: 730px;
+    margin-top: -165px;
+    border-radius: 6px;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.basic_about_img{
+    width: 600px;
+    height: 170px;
+    padding-top: 55px;
+    background-image: url('img/png/about_bg.png');
+}
+.bg_images{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.basic_about_img .under_img_text{
+    font-size: 30px;
+}
+.under_img_text{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: #D9D9D9;
+}
+.basic_text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0 90px 0;
+    color: #A6A6A6;
+}
+.basic_img1{
+    display: block;
+    margin-left: 60px;
+    margin-right: 34px;
+}
+.basic_img2{
+    display: block;
+    margin-right: 40px;
+}
+.basic_food img{
+    transition: transform 0.3s;
+}
+.basic_food svg path{
+    transition: all 0.2s;
+}
+.basic_food svg:hover path{
+    fill: brown;
+    cursor: pointer;
+}
+.basic_food img:hover{
+    transform: scale(1.14);
+    cursor: pointer;
+}
+/* The Basic Of Food */
+
+/* How It Works */
+.works_bg_img{
+    width: 530px;
+    height: 150px;
+    background-image: url('img/png/work_bg.png');
+}
+.works_block{
+    width: 100%;
+    gap: 30px;
+    margin-top: 44px;
+}
+.works_block .works_block--box{
+    width: 23%;
+    height: 206px;
+    border-radius: 6px;
+    padding: 24px;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.works_title{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.275px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.works_line{
+    display: block;
+    width: 56px;
+    height: 2px;
+    margin: 20px 0 25px 0;
+    background: #34C759;
+}
+.works_text{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.1625px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.works_block--box:hover{
+    background: #34C759;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.works_block--box:hover .works_text,
+.works_block--box:hover .works_title{
+    color: #191919;
+}
+.works_block--box:hover .works_line{
+    background: #191919;
+}
+/* How It Works */
+
+/* Dish Of The Day */
+.dishes{
+    margin-top: 95px;
+}
+.dishes_bg_img{
+    width: 470px;
+    height: 170px;
+    margin-bottom: 44px;
+    background-image: url('img/png/dishes_bg.png');
+}
+.dishes_block{
+    width: 100%;
+    gap: 30px;
+}
+.dishes_block--box{
+    width: 31.5%;
+    height: 510px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.dishes_img{
+    overflow: hidden;
+}
+.dishes_img img{
+    display: block;
+    width: 100%;
+    transition: all .2s;
+}
+.dishes_img img:hover{
+    transform: scale(1.1);
+}
+.dishes_content{
+    padding: 28px 30px;
+}
+.dishes_title{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #D9D9D9;
+}
+.dishes_item{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 1px;
+    letter-spacing: -0.15px;
+    color: #A4A8B2;
+}
+.dishes_text{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 20px;
+    letter-spacing: -0.1625px;
+    color: #85878C;
+}
+.dishes_footer{
+    margin-top: 30px;
+}
+.dishes_footer img{
+    cursor: pointer;
+}
+.dishes_footer button{
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: 0 32px ;
+    background: #262626;
+    border: 2px solid #303030;
+}
+.dishes_footer button:hover{
+    color: #252525;
+    background: #34C759;
+    cursor: pointer;
+}
+/* Dish Of The Day */
+
+/* This Month's Chefs */
+.chefs .container{
+    margin: 44px auto 91px auto;
+}
+.chefs_bg_img{
+    width: 600px;
+    height: 200px;
+    background-image: url('img/png/chefs_bg.png');
+}
+.chefs_block{
+    width: 100%;
+    margin-top: 10px;
+    gap: 30px;
+}
+.chefs_block--box{
+    width: 31.5%;
+    height: auto;
+}
+.chefs_block--box img{
+    display: block;
+}
+.person_info{
+    margin-left: 22px;
+}
+.person_name{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+}
+.person_career{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 6px;
+    letter-spacing: -0.15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.chef_meals img{
+    width: 100%;
+    margin-top: 24px;
+}
+/* This Month's Chefs */
+
+/* Recipes From Our Chefs */
+.recipes_bg_img{
+    width: 600px;
+    height: 200px;
+    background-image: url('img/png/recipes_bg.png');
+}
+.recipes_block{
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+}
+.recipes_block--box{
+    width: 48.6%;
+    height: 550px;
+}
+.reciptes_box1{
+    padding: 90px 90px 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    border-radius: 6px;
+    background-image: url('img/png/breakfast_bg.png');
+}
+.recipes_block--box button{
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    padding: 0 6px;
+    opacity: 0.3;
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: opacity .2s;
+    background: #000000;
+}
+.recipes_block--box button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#recipes--btn1{
+    padding: 0 16px;
+}
+.recipes--box1--date{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 65px 0 25px 0;
+}
+.recipes--box1--text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center; 
+}
+.recipes--box1--author{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 45px 0 60px 0;
+}
+.recipes_box2{
+    gap: 30px;
+}
+.recipes_box--box{
+    width: 100%;
+    height: 33%;
+    border-radius: 6px;
+    padding: 30px 26px 25px 30px;
+}
+.recipes--box--btm{
+    margin-top: 12px;
+}
+.recipes_box--box:nth-child(1){
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.recipes--box2--text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.recipes--box2--date{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 15px;
+    margin-right: 180px;
+    color: #B3B3B3;
+}
+.recipes_box--box:nth-child(2){
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('img/png/dinner_bg.png');
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.recipes_box--box:nth-child(1):hover{
+    background: #34C759;
+}
+.recipes_box--box:nth-child(1):hover .recipes--box2--date{
+    color: #1A1A1A;
+}
+.recipes_box--box:nth-child(1):hover .recipes--box2--text{
+    color: #252525;
+}
+.recipes_box--box:nth-child(3):hover{
+    background: #34C759;
+}
+.recipes_box--box:nth-child(3):hover .recipes--box2--date{
+    color: #1A1A1A;
+}
+.recipes_box--box:nth-child(3):hover .recipes--box2--text{
+    color: #252525;
+}
+.recipes_box--box:nth-child(1):hover .recipes--box--btm svg path{
+    fill: #191919;
+}
+.recipes_box--box:nth-child(3):hover .recipes--box--btm svg path{
+    fill: #191919;
+}
+/* Recipes From Our Chefs */
+
+/* We In Social */
+.social .container{
+    margin-top: 40px;
+}
+.social_bg_img{
+    width: 560px;
+    height: 160px;
+    background-image: url('img/png/social_bg.png');
+}
+.social_block{
+    width: 100%;
+    margin-top: 44px;
+}
+.social--box{
+    position: relative;
+    width: 31%;
+    height: 330px;
+    padding: 25px 0;
+    border-radius: 6px;
+    background: #252525;
+}
+.social--box:nth-child(2){
+    padding: 25px 0 0 0;
+}
+.social_media{
+    width: 100%;
+    padding: 0 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #303030;
+}
+.media_name{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #BFBFBF;
+}
+.social_media button{
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 40px;
+    padding: 0 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #737373;
+    border-radius: 30px;
+    background: #262626;
+    cursor: pointer;
+    border: 2px solid #303030;
+}
+.social_date{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #737373;
+}
+.social_text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.social_info{
+    padding: 20px 30px;
+}
+.social_info a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    color: #34C759;
+}
+.social_image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('img/png/insta_imgs.png');
+}
+.scroll{
+    position: absolute;
+    top: 120px;
+    right: 15px;
+}
+/* We In Social */
+
+/* Footer */
+footer{
+    width: 100%;
+    /* height: 275px; */
+    margin-top: 120px;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer div{
+    width: 100%;
+}
+.foot{
+    margin-top: -110px;
+}
+.footer_top{
+    padding: 30px 263px;
+    border-bottom: 2px solid #303030;
+}
+.footer_bottom{
+    padding: 30px 0;
+    margin-top: 10px;
+}
+.footer_end{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #737373;
+}
+/* Footer */
